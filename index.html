@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food-restrurent</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="navber">
+      <div class="logo">
+        <p>FastLain</p>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#our-food">foods</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#top-sales">Best-sales</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- for hero section -->
+    <section class="hero-section" id="home">
+      <div class="hero-content">
+        <p class="subtitel">Savor the Flavors</p>
+        <h1 class="titel">
+          Experience Culinary Excellence <br />
+          Food Experience
+        </h1>
+        <p class="decription">
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It
+          has roots in a piece of classical Latin literature from 45 BC, making
+          it over 2000 years old. Richard McClintock
+        </p>
+        <button class="btn">Shop The Hotest Food</button>
+      </div>
+    </section>
+    <!-- for cart box -->
+    <section class="cart-box" id="our-food">
+      <div class="subtitel">
+        <p>Favorite Brands</p>
+        <h1 class="titel">
+          Your Favorite Brands Food <br />
+          Are Now On Sale
+        </h1>
+      </div>
+      <div class="cart-conteiner">
+        <div class="cart">
+          <img src="assets/pizza.png" alt="biriyani" width="100%" />
+          <div class="text">
+            <span class="img-titel"> Pizza Burg</span>
+            <h2 class="img-off">Up To 50% Off</h2>
+            <p class="img-description">
+              Contrary to popular belief, Lorem Ipsum is not simply random text.
+            </p>
+          </div>
+        </div>
+        <!-- secend cart -->
+        <div class="cart">
+          <img src="assets/biriyani.png" alt="biriyani" width="100%" />
+          <div class="text">
+            <span class="img-titel"> Kacchi bhai</span>
+            <h2 class="img-off">Up To 50% Off</h2>
+            <p class="img-description">
+              Contrary to popular belief, Lorem Ipsum is not simply random text.
+            </p>
+          </div>
+        </div>
+        <!-- third cart -->
+        <div class="cart">
+          <img src="assets/burger.png" alt="biriyani" width="100%" />
+          <div class="text">
+            <span class="img-titel"> Berger king</span>
+            <h2 class="img-off">Up To 50% Off</h2>
+            <p class="img-description">
+              Contrary to popular belief, Lorem Ipsum is not simply random text.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="btn">Watch All Sells</button>
+    </section>
+
+    <!-- about sectioon -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="assets/foods.png" alt="Foods img" width="70%" />
+      </div>
+      <div class="about-description">
+        <h1 class="headline">
+          We always make sure to provide <br />
+          you with good food
+        </h1>
+        <p class="subtitel">Don’t miss a thing! Subscribe to our newsletter</p>
+        <hr />
+        <p class="follow">FOLLOW ON US</p>
+        <hr />
+        <div class="icon">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-solid fa-x"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+      </div>
+    </section>
+    <!-- singel cart -->
+    <section class="card" id="top-sales">
+      <div class="card-item">
+        <img src="assets/pizza.png" alt="pizza" />
+        <span class="img-titel"> Pizza Burg</span>
+        <h2 class="img-off">Up To 50% Off</h2>
+        <p class="img-description">
+          Contrary to popular belief, Lorem Ipsum is not <br />
+          simply random text.
+        </p>
+        <button class="btn">Watch All Sells</button>
+      </div>
+    </section>
+    <section class="last-section">
+      <div class="text-content">
+        <div class="about-description">
+          <h1 class="headline">
+            We always make sure to provide <br />
+            you with good food
+          </h1>
+          <p class="subtitel">
+            Don’t miss a thing! Subscribe to our newsletter
+          </p>
+          <hr />
+          <p class="follow">FOLLOW ON US</p>
+          <hr />
+          <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-solid fa-x"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer
+      style="text-align: center; padding: 10px 0; background-color: #f1f1f1"
+    >
+      <p>
+        &copy; <span id="year"></span> YourCompanyName. All rights reserved.
+      </p>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
